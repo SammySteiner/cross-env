@@ -1,6 +1,6 @@
 const isWindows = require('./is-windows')
 
-const pathLikeEnvVarWhitelist = new Set(['PATH', 'NODE_PATH'])
+const pathLikeEnvVarWhitelist = new Set(['PATH', 'NODE_PATH', 'SASS_PATH'])
 
 module.exports = varValueConvert
 
